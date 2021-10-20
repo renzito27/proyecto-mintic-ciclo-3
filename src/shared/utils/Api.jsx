@@ -1,2 +1,2 @@
-const apiBaseUrl = "https://dashboard.heroku.com/apps/misionticproyecfront";
-export default apiBaseUrl;
+const apiBaseUrl = "https://misionticproyecfront.herokuapp.com/";
+export default apiBaseUrl
