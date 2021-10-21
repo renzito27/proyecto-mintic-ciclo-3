@@ -14,7 +14,9 @@ function HomePage() {
         let state = false;
         if (cookies.includes('auth0')){
             state = true;
-     
+
+            return state;
+        }
   
         }
     const getProducts = async()=>{
@@ -78,9 +80,6 @@ const grantAccess = async () => {
   }
   else {
       setValidUser(false);
-  }
-
-      return state;
   }
 
   //console.log("Valid user: " + validUser)
