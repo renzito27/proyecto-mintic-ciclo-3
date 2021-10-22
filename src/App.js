@@ -7,6 +7,7 @@ import NavbarComponent from './shared/components/navbar/NavbarComponent';
 import AfooterComponent from './shared/components/AfooterComponent';
 import ForbidenComponent from './shared/components/forbiden/ForbidenComponent';
 import HomePage from './home/HomePage';
+import AddProductPage from './add-product/AddProductPage';
 function App() {
   return (
     <Router>
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <HomePage/>
+        </Route>
+        <Route path="/add-product" exact>
+          <AddProductPage />
         </Route>
         <Route path="/login" exact>
           <LoginPage />
